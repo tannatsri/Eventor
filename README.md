@@ -1,8 +1,8 @@
 ## Eventor
-Portal for ABES EC students to get updated about campus events and competitions.
+Portal for ABESEC students to get updated about campus events and competitions.
 
 ## Phase
-Project is in intial forntend development phase (designing and layout)<br>
+Project is in intial frontend development phase (designing and layout)<br>
 We will start Backend development soon with NodeJS server and Mongo DB as data base.
   
 ## Issues 
@@ -12,5 +12,3 @@ We will start Backend development soon with NodeJS server and Mongo DB as data b
 
 ## Note:
   Use only bootstrap, css and html.
-  
-  
