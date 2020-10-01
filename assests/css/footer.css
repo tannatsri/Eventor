@@ -1,1 +1,64 @@
+/* Placing and arranging entire footer */
+footer{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 15rem; 
+    width: 100%;
+    background-color: #343a40;
+    color: white;    
+    padding-top: 3rem;    
+    margin-top: 2rem;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+} 
 
+/* Designing Social Links */
+.container .social-list li{
+    list-style-type: none;
+    display: inline;
+    font-weight: bolder;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin: 0.5rem;
+    padding: 0.8rem;   
+}
+
+.container .social-list li:hover{
+    border: 1px solid #3ba5ec;
+}
+
+.container .social-list{
+    text-align: center;
+    padding:0;
+}
+
+a i{
+    font-weight: bolder;
+    color: white;    
+    height: 6rem;
+    margin-top: 2.5rem;    
+}
+
+.fab{
+    color: white;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size:1.5rem;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 1.2rem;
+    height: 3.5rem;
+} 
+
+.fab:hover{
+    color:#3ba5ec;
+}
+
+.container h3{
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
