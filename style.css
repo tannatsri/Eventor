@@ -6,3 +6,16 @@ footer {
   width: 100%;
   color: antiquewhite;
 }
+#contact {
+  margin-top: 5%;
+}
+.pt-4:hover i,
+.pt-4:hover h3 {
+  color: rgb(172, 132, 132);
+}
+.pt-4 i,
+.pt-4 h3,
+.pt-4 p {
+  color: rgb(119, 100, 100);
+  text-decoration: none;
+}
