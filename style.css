@@ -1,0 +1,8 @@
+footer {
+  position: absolute;
+  bottom: -105px;
+  background: rgb(61, 59, 59);
+  background-size: cover;
+  width: 100%;
+  color: antiquewhite;
+}
