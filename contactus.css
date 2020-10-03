@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .contact
@@ -18,6 +18,7 @@
     flex-direction: column;
     background-image: url(image/background.jpg);
     background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact .content 
@@ -25,13 +26,13 @@
     max-width: 800px;
     text-align: center;
 }
-.contact .content h2
+.contact .content h3
 {
    font-size: 36px;
    font-weight: 500;
-   color: #fff;
+   color: rgb(14, 129, 236);
 }
-.contact .content p
+.contact .content h5
 {
     font-weight: 300;
     color: #fff;
@@ -54,7 +55,7 @@
 .container .contactInfo .box
 {
     position: relative;
-    padding: 20px 0;
+    padding: 20px 40px;
     display: flex;
 
 }
@@ -82,7 +83,7 @@
 .container .contactInfo .box .text h3
 {
     font-weight: 500;
-    color: #00bcd4;
+    color:rgb(14, 129, 236);
 }
 .contactForm{
     width: 40%;
@@ -90,7 +91,10 @@
     background: #fff;
 }
 .contactForm h2{
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 .contactForm .inputBox{
     position: relative;
@@ -131,14 +135,27 @@
 .contactForm .inputBox input[type="submit"]
 {
     width: 100px;
-    background: #00bcd4;
+    background:  rgb(14, 129, 236);
     color: #fff;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
 }
+.row {
+    background: rgb(61, 59, 59);
+    color: white;
+}
 
+footer {
+    height: 80px;
+    padding-top: 30px;
+    position: absolute;
+    background: rgb(61, 59, 59);
+    background-size: cover;
+    width: 100%;
+    color: white;
+  }
 @media (max-width: 991px)
 {
     .contact{
