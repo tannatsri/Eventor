@@ -118,7 +118,7 @@ function sendmail() {
   Name = document.getElementById("name").value;
   Email = document.getElementById("email").value;
   message = document.getElementById("message").value;
-  reciever = "Enter the mail address where mail need to be delivered";
+  reciever = "dpsman13016@gmail.com";
   body = "<h4>Name:" + Name + "<br>Email: " + Email  + "<br>Message: " + message + "</h4>";
   var url = 'https://smartmenu.pythonanywhere.com/mail?from=MAIL+API&to='+reciever+'&subject=Contact+from+ABESEC&body=You+got+some+message&html=' + body;
   getData(url);
