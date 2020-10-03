@@ -4,8 +4,12 @@ footer {
   background: rgb(61, 59, 59);
   background-size: cover;
   width: 100%;
-  color: antiquewhite;
+  color: white;
 }
+footer .page-footer{
+  height: 4rem;
+  color: white;
+  }
 #contact {
   margin-top: 5%;
 }
@@ -233,3 +237,4 @@ footer {
   margin-top: -150px;
 
 }
+
