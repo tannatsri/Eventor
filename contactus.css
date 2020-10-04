@@ -1,177 +1,158 @@
-
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contact
-{
-    position: relative;
-    min-height: 100vh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(image/background.jpg);
-    background-size: cover;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(image/background.jpg);
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.contact .content 
-{
-    max-width: 800px;
-    text-align: center;
+.contact .content {
+  max-width: 800px;
+  text-align: center;
 }
-.contact .content h3
-{
-   font-size: 36px;
-   font-weight: 500;
-   color: rgb(14, 129, 236);
+.contact .content h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(14, 129, 236);
 }
-.contact .content h5
-{
-    font-weight: 300;
-    color: #fff;
+.contact .content h5 {
+  font-weight: 300;
+  color: #fff;
 }
-.container
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
-.container .contactInfo 
-{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
-.container .contactInfo .box
-{
-    position: relative;
-    padding: 20px 40px;
-    display: flex;
-
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 40px;
+  display: flex;
 }
 
-.container .contactInfo .box .icon
-{
-    min-width: 60px;
-    height: 60px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
 }
-.container .contactInfo .box .text
-{
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: #fff;
-    flex-direction: column;
-    font-weight: 300;
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
 }
-.container .contactInfo .box .text h3
-{
-    font-weight: 500;
-    color:rgb(14, 129, 236);
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: rgb(14, 129, 236);
 }
-.contactForm{
-    width: 40%;
-    padding: 40px;
-    background: #fff;
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
 }
-.contactForm h2{
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+.contactForm h2 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
-.contactForm .inputBox{
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
 }
 .contactForm .inputBox input,
-.contactForm .inputBox textarea
-{
-     width: 100%;
-     padding: 5px 0;
-     font-size: 16px;
-     margin: 10px 0;
-     border: none;
-     border-bottom: 2px solid #333;
-     outline: none;
-     resize: none;
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
 }
-.contactForm .inputBox span{
-    position: absolute;
-    left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    pointer-events: none;
-    transition: 0.5s;
-    color: #666;
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
 }
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span
-{
-    color: #e91e63;
-    font-size: 12px;
-    transform: translateY(-20px);
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
 }
-.contactForm .inputBox input[type="submit"]
-{
-    width: 100px;
-    background:  rgb(14, 129, 236);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: rgb(14, 129, 236);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
 }
 .row {
-    background: rgb(61, 59, 59);
-    color: white;
+  background: rgb(61, 59, 59);
+  color: white;
+}
+.box:hover .text {
+  animation: slide 2s ease-in-out 0.5s infinite alternate;
 }
 
 footer {
-    height: 80px;
-    padding-top: 30px;
-    position: absolute;
-    background: rgb(61, 59, 59);
-    background-size: cover;
-    width: 100%;
-    color: white;
+  height: 80px;
+  padding-top: 30px;
+  position: absolute;
+  background: rgb(61, 59, 59);
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
   }
-@media (max-width: 991px)
-{
-    .contact{
-        padding: 50px;
-    }
-    .container
-    {
-        flex-direction: column;
-    }
-    .container .contactInfo
-    {
-        margin-bottom: 40px;
-    }
-    .container .contactInfo,
-    .contactForm
-    {
-        width: 100%;
-    }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo {
+    margin-bottom: 40px;
+  }
+  .container .contactInfo,
+  .contactForm {
+    width: 100%;
+  }
 }
