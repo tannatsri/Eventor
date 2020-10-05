@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -8,13 +9,12 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
   <link rel="stylesheet" href="assets/css/style.css">
 
   <title>ABES Clubs</title>
 </head>
 <body>
-  <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">ABES EC</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -24,8 +24,8 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
@@ -34,123 +34,125 @@
           <a class="nav-link" href="clubs.html">Clubs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="events.html">Events</a>
+          <a class="nav-link" href="#">Events<span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
       </ul>
     </div>
   </nav>
-  <!--Navbar End-->
-  
-  <header>
-    <!--Slider-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <br>
 
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+  <div class="container">
+    <h3>Live Events</h3>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Event Name</th>
+          <th scope="col">From</th>
+          <th scope="col">Till</th>
+          <th scope="col">Organiser</th>
+          <th scope="col">More</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>open source</td>
+          <td>11/11/11</td>
+          <td>11/11/11</td>
+          <td>gfg</td>
+          <td><a href="#">Click here</a></td>
 
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>open source</td>
+          <td>11/11/11</td>
+          <td>11/11/11</td>
+          <td>gfg</td>
+          <td><a href="#">Click here</a></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>open source</td>
+          <td>11/11/11</td>
+          <td>11/11/11</td>
+          <td>gfg</td>
+          <td><a href="#">Click here</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <br>
+    <h3>Upcoming Events</h3>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Event Name</th>
+          <th scope="col">From</th>
+          <th scope="col">Till</th>
+          <th scope="col">Organiser</th>
+          <th scope="col">More</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>open source</td>
+          <td>11/11/11</td>
+          <td>11/11/11</td>
+          <td>gfg</td>
+          <td><a href="#">Click here</a></td>
 
-        </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <!--Slider End-->
-  </header>
-  <!--Main-->
-  <div class="site-section bg-light pb-0">
-    <div class="container">
-      <div class="row align-items-stretch overlap">
-        <div class="col-lg-8">
-          <div class="box h-100">
-            <div class="d-flex align-items-center">
-              <div class="img"><img src="image/logo.jpg" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="#" class="category">Up Coming</a>
-                <h3><a href="#">Heading</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quidem totam exercitationem eveniet
-                  blanditiis nulla, et possimus, itaque alias maxime!</p>
-                <p class="mb-0">
-                  <span class="brand-react h5"></span>
-                  <span class="brand-javascript h5"></span>
-                </p>
-                <p class="meta">
-                  <span class="mr-2 mb-2">1hr 24m</span>
-                  <span class="mr-2 mb-2">Advanced</span>
-                  <span class="mr-2 mb-2">Jun 18, 2020</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="box small h-100">
-            <div class="d-flex align-items-center mb-2 ">
-              <div class="img"><img src="image/logo.jpg" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="#" class="category">Events</a>
-                <h3><a href="#">Heading</a></h3>
-              </div>
-            </div>
-            <div class="d-flex align-items-center mb-2">
-              <div class="img"><img src="image/logo.jpg" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="#" class="category">Competion</a>
-                <h3><a href="#">Heading</a></h3>
-              </div>
-            </div>
-            <div class="d-flex align-items-center">
-              <div class="img"><img src="image/logo.jpg" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="#" class="category">Results</a>
-                <h3><a href="#">Heading</a></h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>open source</td>
+          <td>11/11/11</td>
+          <td>11/11/11</td>
+          <td>gfg</td>
+          <td><a href="#">Click here</a></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>open source</td>
+          <td>11/11/11</td>
+          <td>11/11/11</td>
+          <td>gfg</td>
+          <td><a href="#">Click here</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </table>
   </div>
-  <!--Main End-->
+  <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Eventor</a>.
+            </p>
+          </div>
 
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-       <a href="#">Eventor</a>.
-          </p>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-          </ul>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
 </footer>
+    <!-- Footer -->
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -163,5 +165,5 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-</body>
+ </body>
 </html>
