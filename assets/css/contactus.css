@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(image/background.jpg);
+  background-image: url(../../image/background.jpg);
   background-size: cover;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
