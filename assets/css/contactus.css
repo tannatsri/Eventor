@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../../image/background.jpg);
+  background-image: url(../../image/contact.jpg);
   background-size: cover;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -28,6 +28,9 @@
 }
 .contact .content h5 {
   font-weight: 300;
+  color: rgb(20, 20, 20);
+}
+.contact .content h5:hover{
   color: #fff;
 }
 .container {
@@ -35,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin: 40px 0;
 }
 .container .contactInfo {
   width: 50%;
@@ -74,6 +77,7 @@
   width: 40%;
   padding: 40px;
   background: #fff;
+  margin: 35px 0;
 }
 .contactForm h2 {
   font-size: 25px;
@@ -133,7 +137,7 @@
 }
 
 footer {
-  height: 80px;
+  height: 85px;
   padding-top: 30px;
   position: absolute;
   background: rgb(61, 59, 59);
@@ -156,3 +160,4 @@ footer {
     width: 100%;
   }
 }
+
